@@ -27,7 +27,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'sos_publisher = sos_publisher:main',
+            'sos_publisher = ros2_pub_py.topics.sos_publisher:main',
         ],
     },
 )
